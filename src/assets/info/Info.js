@@ -2,25 +2,25 @@ import self from '../img/self.png';
 import { colors } from '../colors/mainGradient';
 
 export const info = {
-  firstName: 'Andy',
-  lastName: 'Luo',
-  initials: 'AL', // the example uses first and last, but feel free to use three or more if you like.
-  position: 'a Full Stack Developer',
+  firstName: 'Ishmael',
+  lastName: 'Williams',
+  initials: 'IW', // the example uses first and last, but feel free to use three or more if you like.
+  position: 'a recent KSU Comp Sci Grad',
   selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
   gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
   baseColor: colors[0],
   miniBio: [
     // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
     {
-      emoji: '🇨🇦',
-      text: 'based in the Toronto, Canada',
+      emoji: '🇺🇸',
+      text: 'based in the McDonough, Georgia',
     },
+    // {
+    //   emoji: '💻',
+    //   text: 'Full Stack Developer at commonsku',
+    // },
     {
-      emoji: '💻',
-      text: 'Full Stack Developer at commonsku',
-    },
-    {
-      emoji: '📧',
+      emoji: '📧',  
       text: 'andy8647lgc@gmail.com',
     },
   ],
