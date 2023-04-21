@@ -2,7 +2,7 @@ import self from '../img/self.png';
 import { colors } from '../colors/mainGradient';
 
 export const info = {
-  firstName: 'Ishmael',
+  firstName: 'Ishmaelllll',
   lastName: 'Williams',
   initials: 'IW', // the example uses first and last, but feel free to use three or more if you like.
   position: 'a recent KSU Comp Sci Grad',
