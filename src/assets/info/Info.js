@@ -12,7 +12,8 @@ export const info = {
   miniBio: [
     // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
     {
-      text: 'based in the McDonough, Georgia',
+      emoji: '🇺🇸',
+      text: 'McDonough, Georgia',
     },
 
     {
@@ -37,7 +38,7 @@ export const info = {
       label: 'linkedin',
     },
   ],
-  bio: "Hello! I'm Ishmael Williams. I'm a recent KSU computer science graduate, I enjoy learning new technologies and building simple web apps.",
+  bio: "Hello! I'm Ishmael Williams. I'm a recent KSU computer science graduate, I enjoy learning new technologies and building web apps.",
   skills: {
     // you dont havew to strictly follow the 'languages', 'frameworks', 'databases', 'cloudServices', and 'tools' categories. You can add your own if you'd like.
     // but the structure should be the same, an array of strings and the key should be one word, no spaces.
@@ -67,16 +68,13 @@ export const info = {
     {
       label: 'Cooking',
       emoji: '🍳',
+    },
+    {
+      label: 'Dog dad',
+      emoji: '🐕',
     }
   ],
   portfolio: [
-    // // This is where your portfolio projects will be detailed
-    // //   for the null ones, the button will not show up
-    // {
-    //   title: 'Dynrank.js - High-performance dynamic bar chart visualization library',
-    //   live: null,
-    //   source: 'https://github.com/Andy8647/dynrank',
-    //   image: 'https://i.ibb.co/HFkMKtH/02.jpg',
-    // },
+
   ],
 };
